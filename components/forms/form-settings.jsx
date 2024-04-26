@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import { useSettingsStore } from '@/store/zustand';
-import { useSyncExternalStore } from 'react';
 import {
   Button,
   Card,

@@ -16,7 +16,7 @@ const action = (column, rows) => {
 
 export const splitColumnConfig = {
   buttonColor: 'secondary',
-  buttonIcon: 'transform',
+  buttonIcon: 'split',
   buttonTitle: 'Розбити на стовпчики',
   placeholder: 'Встав з excel стовпчик з Id товарів',
   radioGroup: {
