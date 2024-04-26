@@ -56,7 +56,7 @@ export default function FormArea({ name }) {
               value={areaValue}
               onValueChange={setAreaValue}
             />
-            <Spacer y={4} />
+            <Spacer y={2} />
             <div className="flex justify-between">
               <div>
                 {countLines}

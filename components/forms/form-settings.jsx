@@ -86,7 +86,7 @@ export function FormSettings() {
                   </SelectItem>
                 ))}
               </Select>
-              <Spacer y={4} />
+              <Spacer y={2} />
               <>
                 <div className="flex gap-2">
                   <Input
@@ -103,7 +103,7 @@ export function FormSettings() {
                     />
                   )}
                 </div>
-                <div className="flex justify-between mt-4">
+                <div className="flex justify-between mt-2">
                   <Button
                     endContent={<UndoIcon />}
                     color="primary"

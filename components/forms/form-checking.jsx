@@ -57,12 +57,12 @@ export function FormChecking() {
               >
                 <SelectItem key="category">ID Категорії</SelectItem>
               </Select>
-              <Spacer y={4} />
+              <Spacer y={2} />
               <Input
                 placeholder={inputCategoryValue || 'Введи ID Категорії'}
                 onValueChange={setInputCategoryValue}
               />
-              <Spacer y={4} />
+              <Spacer y={2} />
               <div className="flex justify-end">
                 <Button endContent={<SaveIcon />} color="success" type="submit">
                   <span className="font-medium">Зберегти</span>
