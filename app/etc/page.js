@@ -1,10 +1,10 @@
 import FormArea from '@/components/forms/form-area';
-import { Divider, Spacer } from '@nextui-org/react';
+import { Spacer } from '@nextui-org/react';
 
 export default function Etc() {
   return (
     <main className="mx-auto container">
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-16 ">
+      <div className="mt-8 grid sm:grid-cols-1 md:grid-cols-2 gap-16 ">
         <div>
           <FormArea name="getGoodsIdFromUrlConfig" />
           <Spacer y={4} />
