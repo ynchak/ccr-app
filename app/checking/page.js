@@ -5,7 +5,7 @@ import { Divider, Spacer } from '@nextui-org/react';
 export default function Checking() {
   return (
     <main className="mx-auto container">
-      <div className="p-8 grid sm:grid-cols-1 md:grid-cols-2 gap-16 ">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-16 ">
         <div>
           <FormArea name="findMovedGoodsConfig" />
           <Spacer y={4} />
