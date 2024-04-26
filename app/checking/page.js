@@ -1,8 +1,8 @@
 import FormArea from '@/components/forms/form-area';
-import { FormSettings } from '@/components/forms/form-settings';
+import { FormChecking } from '@/components/forms/form-checking';
 import { Divider, Spacer } from '@nextui-org/react';
 
-export default function Home() {
+export default function Checking() {
   return (
     <main className="mx-auto container px-8">
       <div className="p-8 grid sm:grid-cols-1 md:grid-cols-2 gap-16 ">
@@ -11,18 +11,16 @@ export default function Home() {
             Перенесення товарів
           </h2>
           <Divider className="my-4" />
-          <FormArea name="openSourcesWithIDConfig" />
+          <FormArea name="findMovedGoodsConfig" />
           <Spacer y={4} />
-          <FormArea name="transformConfig" />
-          <Spacer y={4} />
-          <FormArea name="openInCunstructConfig" />
+          <FormArea name="" />
         </div>
         <div>
           <h2 className="text-xl font-medium text-center">Оновлення товарів</h2>
           <Divider className="my-4" />
-          <FormArea name="openSourceAttr" />
+          <FormArea name="findGoodsInCatgoryConfig" />
           <Spacer y={4} />
-          <FormSettings />
+          <FormChecking />
           <Spacer y={4} />
         </div>
       </div>
