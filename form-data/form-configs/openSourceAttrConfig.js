@@ -1,4 +1,3 @@
-import { MAX_LINES } from '@/configs/app-config';
 import { useSettingsStore } from '@/store/zustand';
 import { openInNewTab } from '@/utils';
 
@@ -46,7 +45,6 @@ const action = (column) => {
     throw `❌ Форма нижче 👇 не налаштована`;
   }
   const lines = column.split('\n').filter((line) => line !== '');
-  if (lines.length > MAX_LINES) throw `Введено більше ${MAX_LINES} джерел`;
   const settings = new Type(settingsBy, value, paramValue);
   const links = lines.map((source) => {
     const address = settings.getAddres();
