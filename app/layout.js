@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="uk" suppressHydrationWarning>
-      <body className={`${GeistSans.className} text-base`}>
+      <body className={`${GeistSans.className}`}>
         <Providers>
           <MainNav />
           {children}
