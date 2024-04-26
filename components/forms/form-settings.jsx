@@ -99,7 +99,7 @@ export function FormSettings() {
                   />
                   {selectValue.has('category') && (
                     <Input
-                      placeholder={paramValue || `Введи ID параметру`}
+                      placeholder={data.paramValue || `Введи ID параметру`}
                       onValueChange={setSettingsInputParamValue}
                     />
                   )}
