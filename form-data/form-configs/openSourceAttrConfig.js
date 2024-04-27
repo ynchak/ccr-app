@@ -57,7 +57,7 @@ const action = (column) => {
 export const openSourceAttr = {
   buttonColor: 'primary',
   buttonIcon: 'open',
-  buttonTitle: 'Відкрити джерела з товарами',
+  buttonTitle: 'Відкрити джерела',
   placeholder: 'Встав з excel стовпчик з source\nТакого виду: 31967',
   radioGroup: null,
   action,
