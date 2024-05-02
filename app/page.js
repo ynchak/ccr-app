@@ -18,6 +18,8 @@ export default function Home() {
           <Spacer y={2} />
           <FormSettings />
           <Spacer y={2} />
+          <FormArea name="openSourceWithSelectCategory" />
+          <Spacer y={2} />
         </div>
       </div>
     </main>

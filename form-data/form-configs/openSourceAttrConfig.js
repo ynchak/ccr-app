@@ -40,7 +40,6 @@ class Type {
 
 const action = (column) => {
   const { settingsBy, value, paramValue } = useSettingsStore.getState();
-  console.log(value);
   if (!value) {
     throw `❌ Форма нижче 👇 не налаштована`;
   }
