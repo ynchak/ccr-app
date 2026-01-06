@@ -4,7 +4,8 @@ import { openInNewTab } from '@/utils';
 import { MAX_GOODS_IN_SOURCE, MAX_LINES } from '@/configs/app-config';
 
 const url = 'https://gomer.rozetka.company/gomer/items/source/';
-const attr = '?rz_category_id=';
+// const attr = '?rz_category_id=';
+const attr = '';
 
 const createLink = (source, idCategory) =>
   `${url}${source}${attr}${idCategory}`;
