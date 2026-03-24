@@ -27,14 +27,9 @@ export const linksExternal = [
     title: 'Ліса',
   },
   {
-    key: 'sellers',
-    href: 'https://gomer.rozetka.company/gomer/sellers',
-    title: 'Магазини',
-  },
-  {
-    key: 'mail',
-    href: 'https://msg.rozetka.ua/owa/',
-    title: 'Пошта',
+    key: 'krusty',
+    href: 'https://gomer.rozetka.company/gomerApp/#/krusty/bring',
+    title: 'Krusty',
   },
   {
     key: 'sf',
