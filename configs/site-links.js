@@ -29,7 +29,7 @@ export const linksExternal = [
   {
     key: 'krusty',
     href: 'https://gomer.rozetka.company/gomerApp/#/krusty/bring',
-    title: 'Krusty',
+    title: 'Красті',
   },
   {
     key: 'sf',
