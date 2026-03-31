@@ -15,6 +15,7 @@ const action = (data) => {
   }
   const links = lines.reduce((acc, line) => {
     const [source, ids] = line.split('\t');
+    if (ids === 'id') return;
     return [
       ...acc,
       ...createLink(source, chunk(ids.split(', '), MAX_GOODS_IN_SOURCE)),
