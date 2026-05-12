@@ -1,6 +1,6 @@
 import { openInNewTab } from '@/utils';
 
-const action = (column,) => {
+const action = (column) => {
   const links = column
     .split('\n')
     .filter((line) => line !== '')
