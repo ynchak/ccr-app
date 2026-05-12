@@ -5,7 +5,7 @@ const action = (column) => {
         .split("\n")
         .filter((line) => line !== "")
         .map(
-            (id) => `https://gomer.rozetka.company/goods/item/update?id=${id}/`,
+            (id) => `https://gomer.rozetka.company/goods/item/update?id=${id}`,
         );
     openInNewTab(links);
 };
