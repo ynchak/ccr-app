@@ -9,7 +9,7 @@ export default function Checking() {
         <div>
           <FormArea name="findMovedGoodsConfig" />
           <Spacer y={4} />
-          <FormArea name="" />
+          <FormArea name="openInFlanders" />
         </div>
         <div>
           <FormArea name="findGoodsInCatgoryConfig" />

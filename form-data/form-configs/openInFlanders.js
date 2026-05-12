@@ -1,10 +1,10 @@
 import { openInNewTab } from '@/utils';
 
-const action = (column, _, setCountLines) => {
+const action = (column,) => {
   const links = column
     .split('\n')
     .filter((line) => line !== '')
-    .map((id) => `https://gomer.rozetka.company/goods/item/update?id={id}/`);
+    .map((id) => `https://gomer.rozetka.company/goods/item/update?id=${id}/`);
   setCountLines(links.length);
   openInNewTab(links.join('\n'));
 };
