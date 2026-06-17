@@ -13,6 +13,7 @@ export default function Etc() {
         <div>
           <FormArea name="getLinksFromGoodsIdConfig" />
           <Spacer y={4} />
+          <FormArea name="openGoodsToHidden" />
         </div>
       </div>
     </main>

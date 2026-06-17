@@ -9,6 +9,7 @@ import { getLinksFromGoodsIdConfig } from './form-configs/getLinksFromGoodsIdCon
 import { splitColumnConfig } from './form-configs/splitColumnToConfig';
 import { openSourceWithSelectCategory } from './form-configs/openSourceWithSelectCategory';
 import { openInFlanders } from './form-configs/openInFlanders';
+import { openGoodsToHidden } from './form-configs/openGoodsToHidden'
 
 const dataForForm = {
   openSourcesWithIDConfig,
@@ -21,7 +22,8 @@ const dataForForm = {
   getLinksFromGoodsIdConfig,
   splitColumnConfig,
   openSourceWithSelectCategory,
-  openInFlanders
+  openInFlanders,
+  openGoodsToHidden
 };
 export const getFormData = (name) =>
   dataForForm[name] ?? {
