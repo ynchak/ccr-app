@@ -16,8 +16,8 @@ const action = (column) => {
   const links = chunk(lines, MAX_GOODS_IN_CONSTRUCT).map(
     (part) => `${addres}${part.join('+')}${params['all']}`
   );
-  console.log(links);
-//   openInNewTab(links);
+//   console.log(links);
+  openInNewTab(links);
 };
 
 export const openGoodsToHidden = {
